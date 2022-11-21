@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: lightgrey;
+}
+#root {
+  position: absolute;
+  left: 25vw;
+  top: 40vh;
+}
+
+.MuiPaper-root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+}
+p {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+}
